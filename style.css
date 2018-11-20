@@ -1,0 +1,123 @@
+*{
+    position:relative;
+    box-sizing: boarder box;
+}
+
+body{
+    margin:0;
+    padding:0;
+    background-color: navy;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size:18px;
+}
+
+#bodywrap{
+    width: 95%;
+    margin: auto;
+    padding-left:20%;
+    padding-top:0;
+    padding-right:20%;
+}
+
+.box-1 {
+    position: relative;
+    top:8px;
+    left:0;
+    height: 80px;
+    width: 960px;
+    background: lightgrey;
+    margin:0;
+    background-color:bisque;
+    color:white;
+    text-align:center;
+  }
+
+  .box-2 {
+    position: relative;
+    top:15px;
+    float:center;
+    /**padding-top:10%;**/
+    height: 80px;
+    width: 960px;
+    background: lightgrey;
+    margin:0;
+    background-color:bisque;
+    color:white;
+  }
+  
+/** id's vs classes**/
+.box-3 {
+    position:relative;
+    float:left;
+    width: 495px;
+    height: 300px;
+    top:30px;
+    margin:0;
+    background:pink;
+    color:white
+  }
+
+  /** to make an item in absolute position bleed beyong the boundaries it is already respecting then
+  add negative numbers in right, left, top, or bottom as needed, look below at right:-10px**/
+  .box-4{
+    bottom: 3px;
+    top: 75px;
+    right: 10px;
+    position: absolute;
+    height: 70%;
+    width: 475px;
+    background: darkgray;
+    margin:0;
+    background-color:powderblue;
+    color:white
+  }
+
+  .box-5{
+    bottom: 78px;
+    right: 15px;
+    left:10px;
+    position: absolute;
+    height: 55px;
+    width: 450px;
+    background: darkgray;
+    margin:0;
+    background-color:coral;
+    color:white
+  }
+
+  .box-6{
+    bottom: 15px;
+    right:15px;
+    left:10px;
+    position: absolute;
+    height: 55px;
+    width: 450px;
+    background: darkgray;
+    margin:0;
+    background-color:coral;
+    color:#ffffff
+  }
+
+  .box-7 {
+    position:relative;
+    float:right;
+    top:30px;
+    left: -125px;
+    width: 450px;
+    height: 300px;
+    margin:0;
+    background:pink;
+    color:white
+  }
+
+.box-8 {
+    position: relative;
+    bottom: -345px;
+    left:0;
+    height: 80px;
+    width: 960px;
+    background: lightgrey;
+    margin:0;
+    background-color:bisque;
+    color:white;
+  }
